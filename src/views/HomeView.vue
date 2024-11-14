@@ -26,7 +26,7 @@ export default {
 
 <template>
   <div>
-    <h1>Inicio de Sesión</h1>
+    <h1>Iniciar Sesión</h1>
     <input type="text" placeholder="Email" v-model="email">
     <input type="password" placeholder="Password" v-model="password">
     <button @click="signIn">Ingresar</button>
